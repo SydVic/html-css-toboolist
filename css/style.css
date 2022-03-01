@@ -19,13 +19,44 @@ body{
 
 #logo-boolean{
     height: 60px;
-    margin: 10px 20px;
+    margin: 10px 0 10px 20px;
 }
 
 #toboolist-header{
-    /*display:inline-block;*/
     font-size: 3em;
     font-weight: 900;
     vertical-align: top;
+    line-height: 80px;
 }
 
+/*MAIN*/
+.container-main{
+    background-color: #ffffff;
+    margin: 50px auto;
+    border-radius: 10px;
+    width: 800px;
+    height: 900px;
+}
+
+/*BUTTONS ZONE*/
+.buttons-zone{
+    height:60px;
+}
+
+#add-task{
+    background-color: #47adf1;
+    height: 25px;
+    width: 80px;
+    border-radius: 5px;
+    border-color: #47adf1;
+    color: #ffffff;
+}
+
+#add-section{
+    background-color: #ffffff;
+    height: 25px;
+    width: 100px;
+    border-radius: 5px;
+    border-color: #808080;
+    color: #808080;
+}
