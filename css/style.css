@@ -1,9 +1,31 @@
+/*RESET*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*GENERAL*/
 body{
     background-color: #d3d3d3;
 }
+
+/*HEADER*/
+.logo-header{
+    background-color: #ffffff;
+    height:100px;
+    padding:20px 0;
+}
+
+#logo-boolean{
+    height: 60px;
+    margin: 10px 20px;
+}
+
+#toboolist-header{
+    /*display:inline-block;*/
+    font-size: 3em;
+    font-weight: 900;
+    vertical-align: top;
+}
+
