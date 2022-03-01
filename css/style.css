@@ -12,11 +12,39 @@ body{
 
 /*COMMON*/
 .check{
-    color:green;
+    color:#008000;
+}
+
+.cross{
+    color:#ff0000;
 }
 
 .editorial{
     background-color: #45abea;
+    color: #ffffff;
+    font-size: .7em;
+    border-radius: 10px;
+    padding:5px 8px;
+}
+
+.quarter-goals{
+    background-color: #9c72e4;
+    color: #ffffff;
+    font-size: .7em;
+    border-radius: 10px;
+    padding:5px 8px;
+}
+
+.recruiting{
+    background-color: #64c0a9;
+    color: #ffffff;
+    font-size: .7em;
+    border-radius: 10px;
+    padding:5px 8px;
+}
+
+.mobile{
+    background-color: #f29e33;
     color: #ffffff;
     font-size: .7em;
     border-radius: 10px;
@@ -83,5 +111,5 @@ ul{
 
 li{
     font-weight: 100;
-    margin-top: 5px;
+    margin-top: 10px;
 }
