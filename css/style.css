@@ -13,11 +13,21 @@ body{
 
 /*COMMON*/
 .check{
+    display: inline-block;
     color:#008000;
+    border: 1px solid green;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
 }
 
 .cross{
+    display: inline-block;
     color:#ff0000;
+    border: 1px solid #ff0000;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
 }
 
 .task-type-box{
@@ -55,12 +65,10 @@ body{
 .logo-header{
     background-color: #ffffff;
     height:100px;
-    padding:20px 0;
 }
 
 #logo-boolean{
     height: 60px;
-    margin: 10px 0 10px 20px;
 }
 
 #toboolist-header{
@@ -77,6 +85,11 @@ body{
     padding: 20px 0;
     border-radius: 10px;
     width: 60%;
+}
+
+.container-sub{
+    width:90%;
+    margin: 0 auto;
 }
 
 /*BUTTONS ZONE*/
@@ -106,7 +119,7 @@ main .buttons-zone{
 ul{
     list-style: none;
     font-weight: 800;
-    margin: 30px 0 0 50px;
+    margin-top: 2em;
 }
 
 li{
