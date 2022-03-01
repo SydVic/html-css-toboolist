@@ -7,7 +7,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Toboolist</title>
         <link rel="stylesheet" href="css/style.css">
-
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,900&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -24,52 +26,91 @@
 
         <!-- MAIN -->
         <main>
+            <!-- MAIN CONTENITOR -->
             <div class="container-main">
-                <div class="buttons-zone">
-                    <button id="add-task">Add Task</button>
-                    <button id="add-section">Add Section</button>
+
+                <!-- SUB CONTENITOR -->
+                <div class="container-sub">
+
+                    <div class="buttons-zone">
+                        <button id="add-task">Add Task</button>
+                        <button id="add-section">Add Section</button>
+                    </div>
+
+                    <hr>
+
+                    <!-- TOBOOLIST -->
+                    <ol>
+                        <!-- NEW TASK -->
+                        <ul>&#9207;New Task
+                            <li>
+                                <span class="check">&check;</span>
+                                Quarterly Newsletter
+                                <span class="task-type-box editorial">Editorial</span>
+                            </li>
+                        </ul>
+                        <!-- /NEW TASK -->
+
+                        <!-- TO DO TODAY -->
+                        <ul>&#9207;Today
+                            <li>
+                                <span class="check">&check;</span>
+                                Recruiting blog post
+                                <span class="task-type-box editorial">Editorial</span>
+                            </li>
+
+                            <li>
+                                <span class="check">&check;</span>
+                                Mobile app launch
+                                <span class="task-type-box quarter-goals">Q1 Goals</span>
+                            </li>
+
+                            <li>
+                                <span class="cross">&cross;</span>
+                                Interview John H.
+                                <span class="task-type-box recruiting">Recruiting</span>
+                            </li>
+
+                            <li>
+                                <span class="check">&check;</span>
+                                Summit update to mobile storefronts
+                                <span class="task-type-box mobile">Mobile</span>
+                            </li>
+                        </ul>
+                        <!-- /TO DO TODAY -->
+
+                        <!-- UPCOMING -->
+                        <ul>&#9207;Upcoming
+                            <li>
+                                <span class="cross">&cross;</span>
+                                Schedule meeting with Alex
+                            </li>
+
+                            <li>
+                                <span class="check">&check;</span>
+                                Homepage refresh
+                                <span class="task-type-box website">Website</span>
+                            </li>
+
+                            <li>
+                                <span class="check">&check;</span>
+                                Onboard new Sales team members
+                                <span class="task-type-box sales">Recruiting</span>
+                            </li>
+
+                            <li>
+                                <span class="check">&check;</span>
+                                Review editorial calendar
+                                <span class="task-type-box editorial">Mobile</span>
+                            </li>
+                        </ul>
+                        <!-- /UPCOMING -->
+                    </ol>
+                    <!-- /TOBOOLIST -->
                 </div>
-
-                <hr>
-
-                <ol>
-                    <ul>&#9207;New Task
-                        <li>
-                            <span class="check">&check;</span>
-                            Quarterly Newsletter
-                            <span class="editorial">Editorial</span>
-                        </li>
-                    </ul>
-
-                    <ul>&#9207;Today
-                        <li>
-                            <span class="check">&check;</span>
-                            Recruiting blog post
-                            <span class="editorial">Editorial</span>
-                        </li>
-
-                        <li>
-                            <span class="check">&check;</span>
-                            Mobile app launch
-                            <span class="quarter-goals">Q1 Goals</span>
-                        </li>
-
-                        <li>
-                            <span class="cross">&check;</span>
-                            Interview John H.
-                            <span class="recruiting">Recruiting</span>
-                        </li>
-
-                        <li>
-                            <span class="check">&check;</span>
-                            Summit update to mobile storefronts
-                            <span class="mobile">Mobile</span>
-                        </li>
-                    </ul>
-
-                </ol>
-
+                <!-- /SUB CONTENITOR -->
             </div>
+            <!-- /MAIN CONTENITOR -->
 
         </main>
         <!-- /MAIN -->

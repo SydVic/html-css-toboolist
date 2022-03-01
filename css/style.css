@@ -8,6 +8,7 @@
 /*GENERAL*/
 body{
     background-color: #d3d3d3;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*COMMON*/
@@ -19,36 +20,35 @@ body{
     color:#ff0000;
 }
 
-.editorial{
-    background-color: #45abea;
+.task-type-box{
     color: #ffffff;
     font-size: .7em;
     border-radius: 10px;
     padding:5px 8px;
+}
+
+.editorial{
+    background-color: #45abea;
 }
 
 .quarter-goals{
     background-color: #9c72e4;
-    color: #ffffff;
-    font-size: .7em;
-    border-radius: 10px;
-    padding:5px 8px;
 }
 
 .recruiting{
     background-color: #64c0a9;
-    color: #ffffff;
-    font-size: .7em;
-    border-radius: 10px;
-    padding:5px 8px;
 }
 
 .mobile{
     background-color: #f29e33;
-    color: #ffffff;
-    font-size: .7em;
-    border-radius: 10px;
-    padding:5px 8px;
+}
+
+.website{
+    background-color: #d863a1;
+}
+
+.sales{
+    background-color: #b0c926;
 }
 
 /*HEADER*/
@@ -74,13 +74,14 @@ body{
 .container-main{
     background-color: #ffffff;
     margin: 50px auto;
+    padding: 20px 0;
     border-radius: 10px;
     width: 60%;
 }
 
 /*BUTTONS ZONE*/
 main .buttons-zone{
-    height:60px;
+    height:40px;
 }
 
 #add-task{
@@ -104,12 +105,11 @@ main .buttons-zone{
 /*LIST*/
 ul{
     list-style: none;
-    font-size: 1.5em;
     font-weight: 800;
     margin: 30px 0 0 50px;
 }
 
 li{
     font-weight: 100;
-    margin-top: 10px;
+    margin-top: 1em;
 }
