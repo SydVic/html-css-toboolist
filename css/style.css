@@ -19,7 +19,9 @@ body{
     border-radius: 50%;
     width: 20px;
     height: 20px;
-}
+    text-align: center;
+    line-height: 20px;
+    }
 
 .cross{
     display: inline-block;
@@ -28,6 +30,8 @@ body{
     border-radius: 50%;
     width: 20px;
     height: 20px;
+    text-align: center;
+    line-height: 20px;
 }
 
 .task-type-box{
@@ -65,23 +69,25 @@ body{
 .logo-header{
     background-color: #ffffff;
     height:100px;
+    line-height: 100px;
 }
 
 #logo-boolean{
     height: 60px;
+    vertical-align: middle;
+    margin-left:20px;
 }
 
 #toboolist-header{
     font-size: 3em;
     font-weight: 900;
-    vertical-align: top;
-    line-height: 80px;
+    vertical-align: middle;
 }
 
 /*MAIN*/
 .container-main{
     background-color: #ffffff;
-    margin: 50px auto;
+    margin: 3em auto;
     padding: 20px 0;
     border-radius: 10px;
     width: 60%;
@@ -116,13 +122,20 @@ main .buttons-zone{
 }
 
 /*LIST*/
+ol{
+    list-style: none;
+}
+
 ul{
     list-style: none;
-    font-weight: 800;
-    margin-top: 2em;
 }
 
 li{
-    font-weight: 100;
     margin-top: 1em;
+    font-weight: 100;
+}
+
+li.list-title{
+    margin-top: 2em;
+    font-weight: 800;
 }
