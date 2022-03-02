@@ -5,14 +5,40 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
 body{
     background-color: #d3d3d3;
 }
 
-header{
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.align-middle{
+    vertical-align: middle;
+}
+
+.bg-white{
     background-color: #ffffff;
 }
 
-.main-content{
-    background-color: #ffffff;
+.mt-4{
+    margin-top: 4em;
 }
+
+/* HEADER */
+header{
+    background-color: #ffffff;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 1em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
