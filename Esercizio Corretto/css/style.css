@@ -111,16 +111,41 @@ header{
 }
 
 .tag{  
+    color: #ffffff;
     display: inline-block;
     margin: 0 0.5em;  
     padding: .1em .5em;
     border-width: 1px;
     border-style: solid;
     border-radius: 50px;
-
 }
 
-.tag-blue{
+.tag-editorial{
     background-color: #45abea;
     border-color:  #45abea;
+}
+
+.tag-q1-goals{
+    background-color: #9c72e4;
+    border-color:  #9c72e4;
+}
+
+.tag-recruiting{
+    background-color: #64c0a9;
+    border-color:  #64c0a9;
+}
+
+.tag-mobile{
+    background-color: #f29e33;
+    border-color:  #f29e33;
+}
+
+.tag-website{
+    background-color: #d863a1;
+    border-color:  #d863a1;
+}
+
+.tag-sales{
+    background-color: #b0c926;
+    border-color:  #b0c926;
 }
